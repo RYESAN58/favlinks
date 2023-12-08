@@ -11,12 +11,12 @@ app.get('/', (req, res) => {
   res.sendFile(path.resolve(__dirname, '../client/dist', 'index.html'))
 })
 
+const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`)
 })
 
 
-const PORT = 3000;
 
 
 
